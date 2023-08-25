@@ -1,8 +1,8 @@
 # jira-migration
 A tool to copy tempo account codes from a jira server to jira cloud.
-you can run it multiple times and fix error as you go.
+you can run it multiple times and fix errors as you go.
 
-i'm no Pythonista so be kind and use are your own risk :-).
+i'm no Pythonista so be kind and use at your own risk :-).
 
 # VScode devcontainer
 ## Setting up poetry
