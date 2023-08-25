@@ -1,4 +1,4 @@
-# jira-migration
+# jira tempo account field migration
 A tool to copy tempo account codes from a jira server to jira cloud.
 You can run it multiple times and fix errors in jira as you go.
 
