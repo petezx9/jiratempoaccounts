@@ -1,6 +1,6 @@
 # jira-migration
 A tool to copy tempo account codes from a jira server to jira cloud.
-you can run it multiple times and fix errors as you go.
+You can run it multiple times and fix errors in jira as you go.
 
 i'm no Pythonista so be kind and use at your own risk :-).
 
