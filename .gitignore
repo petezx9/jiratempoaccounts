@@ -1,0 +1,12 @@
+venv
+.env
+**/__pycache__
+.pytest_cache
+
+# This is the username access token for jira, we don't check secrets into source control
+**/auth.py
+
+**/*.csv
+# include this file
+!**/accounts_new.skv.csv
+*.txt

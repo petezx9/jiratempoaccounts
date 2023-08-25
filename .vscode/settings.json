@@ -1,0 +1,29 @@
+{
+    // Enhanse lint with some basic type check rule
+    "python.analysis.typeCheckingMode": "basic",
+
+    // Enable isort check in VC
+    "isort.check": true,
+
+    // VC picks up pylint from poerty (not bundled verion with plugin)
+    "pylint.interpreter": [
+        ".venv/bin/python"
+    ],
+    "pylint.path": [
+        ".venv/bin/pylint"
+    ],
+    "pylint.importStrategy": "fromEnvironment",
+    "isort.importStrategy": "fromEnvironment",
+    "python.analysis.extraPaths": [
+        "./scripts"
+    ],
+    "cSpell.words": [
+        "CLOUDTEMPOACCOUNTCUSTOMFIELD",
+        "CRED",
+        "csvfile",
+        "devtest",
+        "ENDC",
+        "OKGREEN",
+        "WARNINGCOLOUR"
+    ]
+}

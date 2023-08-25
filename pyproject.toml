@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "jira-migration"
+version = "0.1.0"
+description = "tool(s) to do copy tempo accounts"
+authors = ["pete neal"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jira = "^3.5.1"
+tempo-api-python-client = "^0.8.0"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+pylint = "^2.16.2"
+pytest = "^7.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"

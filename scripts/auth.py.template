@@ -1,0 +1,13 @@
+# This is a template for the authentication information
+# should be copied to auth.py and username and API token filled in
+# Because this contains an apt token we don't check in the auth.py file
+
+# on-prem prod token
+api_token =
+
+# cloud dev
+username_cloud_dev =
+api_token_cloud_dev =
+baseUrl = 'https://myjiracloud.atlassian.net'
+OrganisationId=
+organisationToken =

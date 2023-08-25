@@ -1,0 +1,8 @@
+[MAIN]
+jobs=0
+
+[BASIC]
+variable-naming-style=camelcase
+
+[FORMAT]
+max-line-length=100

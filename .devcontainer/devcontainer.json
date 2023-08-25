@@ -1,0 +1,34 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
+{
+	"name": "python3-poetry",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/python:0-3.10",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/poetry:2": {
+			"version": "latest"
+		}
+	},
+
+	// Use 'postCreateCommand' to run commands after the container is credited.
+	"postCreateCommand": "git config --global --add safe.directory '*'",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"donjayamanne.python-extension-pack",
+				"bungcip.better-toml",
+				"eamodio.gitlens",
+				"GitLab.gitlab-workflow",
+				"medo64.render-crlf",
+				"ms-python.pylint",
+				"ms-python.isort",
+				"streetsidesoftware.code-spell-checker",
+				"mechatroner.rainbow-csv",
+				"ms-python.black-formatter"
+			]
+		}
+	}
+
+}
